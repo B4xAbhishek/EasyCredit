@@ -91,7 +91,7 @@ export default async function AdminPage({
   let globalHomeProductEnabled: HomeProductEnabledMap | null = null;
   let paymentReceiveUpi: string | null = null;
   let fallbackCodeValue: string | null = null;
-  let contactEmail = "easycredits@gmail.com";
+  let contactEmail = "supporteasycredit@gmail.com";
   let contactPhone: string | null = null;
 
   try {

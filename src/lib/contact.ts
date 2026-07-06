@@ -1,5 +1,5 @@
 /** Default support email (Account → Contact Us, home bell, legal footer). */
-export const DEFAULT_CONTACT_EMAIL = "easycredits@gmail.com";
+export const DEFAULT_CONTACT_EMAIL = "supporteasycredit@gmail.com";
 
 /** `mailto:` href for support contact. */
 export function contactMailtoHref(email = DEFAULT_CONTACT_EMAIL): string {
