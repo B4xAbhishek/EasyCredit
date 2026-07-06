@@ -1,0 +1,42 @@
+import { LegalPageShell } from "@/components/legal/LegalPageShell";
+import { getContactSettings } from "@/lib/contact-settings";
+import { PrivacyPolicyContent } from "@/components/legal/privacy-policy-content";
+import type { Metadata } from "next";
+import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy · Easy Credit",
+  description:
+    "How Easy Credit collects, uses, and protects your personal information.",
+};
+
+const LAST_UPDATED = "8 April 2026";
+
+export default async function PrivacyPolicyPage() {
+  const { contactEmail } = await getContactSettings();
+  return (
+    <LegalPageShell
+      title="Privacy Policy"
+      lastUpdated={LAST_UPDATED}
+      contactEmail={contactEmail}
+      lede={
+        <p>
+          Easy Credit (“<strong>we</strong>”, “<strong>us</strong>”, or “
+          <strong>our</strong>”) respects your privacy. This Privacy Policy
+          describes how we handle personal data when you use our website and
+          related services (the “<strong>Platform</strong>”). Read it together
+          with our{" "}
+          <Link
+            href="/terms"
+            className="font-medium text-brand-indigo underline-offset-2 hover:underline"
+          >
+            Terms &amp; Conditions
+          </Link>
+          .
+        </p>
+      }
+    >
+      <PrivacyPolicyContent />
+    </LegalPageShell>
+  );
+}
