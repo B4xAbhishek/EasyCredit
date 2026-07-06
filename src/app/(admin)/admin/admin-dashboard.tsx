@@ -284,7 +284,7 @@ export function AdminDashboard({
 
         <section className="grid gap-3 p-4 sm:grid-cols-3 lg:grid-cols-3 lg:gap-0 lg:divide-x lg:divide-zinc-200 lg:border-b lg:border-zinc-200 lg:p-0">
           <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-brand-plum/10 lg:flex lg:items-center lg:gap-5 lg:rounded-none lg:p-8 lg:shadow-none lg:ring-0">
-            <div className="hidden size-12 shrink-0 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600 lg:flex">
+            <div className="hidden size-12 shrink-0 items-center justify-center rounded-lg bg-orange-50 text-orange-600 lg:flex">
               <Users className="size-6" strokeWidth={2} aria-hidden />
             </div>
             <div>

@@ -6,7 +6,7 @@ import { LoginSessionRestore } from "./login-session-restore";
 export default function LoginPage() {
   return (
     <div className="relative flex min-h-dvh flex-col bg-white">
-      <header className="relative overflow-hidden bg-gradient-to-br from-brand-indigo via-[#5a4fd4] to-brand-plum px-6 pb-28 pt-8 sm:px-8">
+      <header className="relative overflow-hidden bg-gradient-to-br from-brand-indigo via-[#e06a1a] to-brand-plum px-6 pb-28 pt-8 sm:px-8">
         <div
           className="pointer-events-none absolute -right-16 -top-16 size-56 rounded-full bg-white/10 blur-2xl"
           aria-hidden

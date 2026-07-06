@@ -26,30 +26,30 @@ export function LoginHeroIllustration() {
       />
       <path
         d="M128 44h48M128 58h40M128 72h44"
-        stroke="#6466f1"
+        stroke="#f5821f"
         strokeWidth="3"
         strokeLinecap="round"
         opacity="0.55"
       />
       {/* Person silhouette */}
-      <ellipse cx="52" cy="118" rx="28" ry="10" fill="#3c155b" opacity="0.12" />
+      <ellipse cx="52" cy="118" rx="28" ry="10" fill="#2a1a0f" opacity="0.12" />
       <path
         d="M44 118c-2-18 8-32 22-36 14-4 28 6 32 22 2 8 1 16-3 22"
         fill="none"
-        stroke="#3c155b"
+        stroke="#2a1a0f"
         strokeWidth="10"
         strokeLinecap="round"
       />
       <circle cx="58" cy="52" r="18" fill="url(#sk-skin)" />
       <path
         d="M40 78c6-10 18-14 30-10 8 3 14 10 16 18l12 42c2 6-1 12-6 15l-6 3"
-        fill="#6466f1"
+        fill="#f5821f"
         opacity="0.9"
       />
       <path
         d="M34 96c4-2 10-1 14 3l10 22"
         fill="none"
-        stroke="#3c155b"
+        stroke="#2a1a0f"
         strokeWidth="8"
         strokeLinecap="round"
       />

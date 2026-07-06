@@ -98,7 +98,7 @@ export function OrdersList({ loans }: { loans: OrdersLoanRow[] }) {
                 <div className="flex items-start justify-between gap-3">
                   <div className="flex min-w-0 items-center gap-3">
                     <span
-                      className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-fuchsia-400 via-purple-500 to-indigo-600 shadow-inner"
+                      className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-amber-400 via-orange-500 to-orange-600 shadow-inner"
                       aria-hidden
                     >
                       <Zap className="size-5 text-white" fill="currentColor" />

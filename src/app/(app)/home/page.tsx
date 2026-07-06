@@ -150,7 +150,7 @@ export default async function HomePage() {
             >
               <div className="flex items-start gap-2.5 sm:gap-3">
                 <span
-                  className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-fuchsia-400 via-purple-500 to-indigo-600 shadow-inner sm:size-11"
+                  className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-amber-400 via-orange-500 to-orange-600 shadow-inner sm:size-11"
                   aria-hidden
                 >
                   <Zap
