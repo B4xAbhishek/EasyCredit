@@ -4,7 +4,7 @@ import type { SessionPayload } from "@/lib/session-types";
 
 const FIXED_ADMIN_PHONE_E164 = "+919876543210";
 const FIXED_ADMIN_EMAILS = new Set([
-  "kreditsmart604@gmail.com",
+  "supporteasycredit@gmail.com",
   "b4xabhishek@gmail.com",
 ]);
 
