@@ -102,8 +102,7 @@ function loanStats(loans: AdminLoanRow[] | null) {
 const STATUS_OPTIONS: LoanStatus[] = ["pending", "active", "settled"];
 
 const allowedEmails = [
-  "b4xabhishek@gmail.com",
-  "kreditsmart604@gmail.com",
+  "supporteasycredit@gmail.com",
 ];
 
 function loanStatusLabel(status: LoanStatus): string {

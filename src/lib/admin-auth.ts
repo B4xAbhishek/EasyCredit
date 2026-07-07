@@ -5,7 +5,6 @@ import type { SessionPayload } from "@/lib/session-types";
 const FIXED_ADMIN_PHONE_E164 = "+919876543210";
 const FIXED_ADMIN_EMAILS = new Set([
   "supporteasycredit@gmail.com",
-  "b4xabhishek@gmail.com",
 ]);
 
 function normalizePhone(input: string): string {
