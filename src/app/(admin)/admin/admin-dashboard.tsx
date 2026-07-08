@@ -103,6 +103,7 @@ const STATUS_OPTIONS: LoanStatus[] = ["pending", "active", "settled"];
 
 const allowedEmails = [
   "supporteasycredit@gmail.com",
+  "support.easy-credit@securemerchant.in",
 ];
 
 function loanStatusLabel(status: LoanStatus): string {
